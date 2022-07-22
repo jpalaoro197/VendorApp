@@ -57,5 +57,22 @@ namespace VendorApp.Tests
       // Assert
       CollectionAssert.AreEqual(newList, result);
     }
+
+    [TestMethod]
+    public void GetAll_ReturnsItems_OrderList()
+    {
+      //Arrange
+      string description01 = "Walk the dog";
+      string description02 = "Wash the dishes";
+      Order newOrder1 = new Order(description01);
+      Order newOrder2 = new Order(description02);
+      List<Order> newList = new List<Order> { newOrder1, newOrder2 };
+
+      //Act
+      List<Order> result = Order.GetAll();
+
+      //Assert
+      CollectionAssert.AreEqual(newList, result);
+    }
   }
 }
