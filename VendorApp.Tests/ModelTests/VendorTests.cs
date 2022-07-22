@@ -11,7 +11,7 @@ namespace VendorApp.Tests
 
     public void Dispose()
     {
-      Category.ClearAll();
+      Vendor.ClearAll();
     }
 
     [TestMethod]

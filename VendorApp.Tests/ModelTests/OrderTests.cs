@@ -90,16 +90,16 @@ namespace VendorApp.Tests
       }
 
       [TestMethod]
-    public void Find_ReturnCorrectItems_Item()
+    public void Find_ReturnCorrectOrders_Order()
     {
       string description01 = "Walk the dog";
       string description02 = "Wash the dishes";
-      Item newItem1 = new Item(description01);
-      Item newItem2 = new Item(description02);
+      Order newOrder1 = new Order(description01);
+      Order newOrder2 = new Order(description02);
 
-      Item result = Item.Find(2);
+      Order result = Order.Find(2);
 
-      Assert.AreEqual(newItem2, result);
+      Assert.AreEqual(newOrder2, result);
     }
   }
 }
