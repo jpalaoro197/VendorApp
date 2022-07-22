@@ -24,5 +24,10 @@ namespace VendorApp.Models
     {
       return _instances;
     }
+
+    public static Item Find(int searchId)
+    {
+      return _instances[searchId-1];
+    }
   }
 }
