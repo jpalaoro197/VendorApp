@@ -1,0 +1,5 @@
+C:\Users\TPalaoro\desktop\vendor.solution\vendorapp.tests\obj\Debug\net5.0\VendorApp.Tests.csproj.AssemblyReference.cache
+C:\Users\TPalaoro\desktop\vendor.solution\vendorapp.tests\obj\Debug\net5.0\VendorApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TPalaoro\desktop\vendor.solution\vendorapp.tests\obj\Debug\net5.0\VendorApp.Tests.AssemblyInfoInputs.cache
+C:\Users\TPalaoro\desktop\vendor.solution\vendorapp.tests\obj\Debug\net5.0\VendorApp.Tests.AssemblyInfo.cs
+C:\Users\TPalaoro\desktop\vendor.solution\vendorapp.tests\obj\Debug\net5.0\VendorApp.Tests.csproj.CoreCompileInputs.cache
